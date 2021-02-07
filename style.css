@@ -1,0 +1,922 @@
+.body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+/*.... navbar  star...t */
+.navbar{
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+
+}
+
+.navbar-nav li{
+    padding-right: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:green;
+}
+
+/*.... navbar  end ...t */
+
+
+
+/* landing page start */
+
+.home-inner{
+    
+    background-image: url('img/atik3.jpg');
+    background-attachment:fixed;
+	background-size: 100% 100%;
+	width:100%;
+	height:680px;
+}
+
+.caption{
+    width: 100%;
+    position: absolute;
+    top:48%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+   letter-spacing: .3rem;
+   text-shadow: .1rem .1rem .8rem#0070ff;
+    padding-bottom: 1rem;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem red;
+    padding-bottom: 1.6rem;
+}
+
+
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.5rem;
+    color: black;
+    
+  
+
+}
+
+/* landing page End  */
+
+
+
+/* ..........course page End................  */
+.classcourse{
+    height: 500px;
+    width:100%;
+
+}
+.classcourse h1{
+  
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+    padding-top:100px;;
+
+}
+.classcourse p{
+  
+    font-family:Arial;
+    
+}
+
+/* ......course page End ......... */
+
+
+
+
+/* ......features page start ......... */
+
+
+#features .jumbotron{
+    margin-bottom: 0;
+
+}
+
+.classfature{
+    height:500px;
+    width: 100%;
+    
+
+}
+
+
+.heading-underline hr{
+    width: 80px;
+    height:.5px;
+    background-color: green;
+    
+}
+
+.classfature h1{
+
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-top:100px;;
+    
+}
+
+.classfature i{
+    padding-top: 2rem;
+    color:#40ff00;
+    padding-bottom: 1.6rem;
+    
+}
+
+.classfature h3{
+
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+/* ......features page end ......... */
+
+
+
+/* contactMe section :start */
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+/* contactMe section End */
+
+
+
+/* ......resources page start ......... */
+
+
+#resources{
+    overflow: hidden;
+}
+
+
+
+.fixed-background{  /* fixed-background pic  */
+    position: relative;
+    width:100%;
+    padding:50px;
+    font-weight:bold;
+    text-align:center;
+   
+    
+
+}
+
+
+.fixed-background:after{  /* fixed-background pic  */
+    content:'';
+    background: url('img/cover1.jpg') no-repeat center center;
+    position: absolute;
+    background-attachment: fixed;
+    top:0px;
+    left: 0px;
+    width:1350px;
+    height:100%;
+    z-index:-1;
+    opacity:.3; /* Here is your opacity */
+}
+
+
+
+
+.fixed-background h1{
+
+    text-transform: uppercase;
+    font-size: 3rem;
+   
+    padding-top:100px;;
+
+}
+
+.classresources h3{
+    padding-top: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+   
+
+}
+.classresources p{
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-top: 1rem;
+   
+
+}
+
+.classresources i{
+    color:#00C851;
+    padding-bottom: .5rem;
+   
+
+}
+
+
+
+/* ......resources page end ......... */
+
+
+
+
+
+/* ......clients page end ......... */
+
+.classclients{
+    width: 100%;
+    height: 150px;
+}
+
+.heading_clients-underline hr{
+    width: 90px;
+    height: 2px;
+   
+    
+
+}
+.heading_clients-underline{
+   
+    padding-bottom: 3.5rem;
+
+}
+
+.clients-heading h1{
+    
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-bottom: 0rem;
+    padding-top:80px;;
+
+
+}
+.classclients img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.classclients h1{
+    
+    font-size: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+
+
+
+/* ......clients page end ......... */
+
+
+
+
+/* ......footer page start ......... */
+.page-footer{
+    width: 100%;
+    height: 450px;
+    background-color: cadetblue;
+   
+}
+
+.footeratikur{
+    padding-top:130px;
+}
+
+.overlay img:hover{
+    opacity: .6;
+  
+}
+
+.overlay img{
+    width: 205px;
+    height: 145px;
+}
+
+/* ......footer page End ......... */
+
+
+
+
+/*   .... start slider  page ....... */
+
+.carousel-inner img{
+
+    height: 470px;
+    width: 100%;
+}
+
+/* ..............*/ 
+
+.slider5 h5{
+    
+   padding-bottom:60px;
+
+}
+.slider5 p{
+    
+    padding-bottom:50px;
+
+
+}
+
+
+/* skills  section for css code start  */
+
+.skils{
+    width: 100%;
+    height: 750px;
+    background-color: #ffffff;
+}
+
+/*  some copy code start   */
+svg.radial-progress circle {
+     stroke-width: 8px;
+
+     }
+
+     svg.radial-progress text {
+        stroke:#3c4761;
+        font-size: .8rem;
+       
+        }
+
+svg.Web-Design circle{
+    stroke:#30bae7;
+}
+svg.HTML-CSS circle{
+    stroke:#d74680;
+}
+
+svg.GRAPHIC-DESIGN circle{
+    stroke:#15c7a8;
+}
+
+svg.UI-UX circle{
+    stroke:#eb7d4b;
+}
+/* copy code end   */
+.box h5{
+    padding-top: 3rem !important;
+}
+
+.headaing-underline h1{
+    padding-top: 8rem !important;
+    padding-bottom:2rem !important ;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size:2rem ;
+    font-weight:500 ;
+   
+}
+.headaing-underline h1::after{
+    content: "";
+    display: block;
+    width: 8rem;
+    height: 0.1rem;
+    background-color:black;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+/* .........../ skills section end   ............. */
+/* ####################################################### */
+
+
+
+
+/*   .... start slider  page ....... */
+
+
+
+
+
+
+
+
+/*........... meadia .............................................................  */
+
+
+@media(min-width:1024px) and (max-width:1366px){
+    .home-inner{
+    
+        width:100%;
+        height:780px;
+    }
+	 
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+   
+    .navbar-nav li{
+        padding-right: 1rem;
+    }
+    
+
+    .home-inner{
+    
+        width:100%;
+        height:680px;
+    }
+    
+	.caption h1{
+        font-size: 2.8rem;
+        font-weight: 500;
+       letter-spacing: .2rem;
+        text-shadow: .1rem .1rem .8rem #ca9f21;
+        padding-bottom: 1rem;
+
+
+}
+
+.classfature{
+    height:760px;
+    width: 100%;
+}
+.classfature h1{
+    padding-top: 40px;
+    color:cornflowerblue;
+}
+
+
+.classclients{
+    width: 100%;
+    height: 250px;
+}
+
+.classclients img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+  
+
+}
+
+.page-footer{
+    width: 100%;
+    height: 680px;
+    background-color:#00C851;
+   
+}
+
+.footeratikur{
+    padding-top:50px;
+}
+
+.overlay img{
+    width: 255px;
+    height: 125px;
+    padding-left: 50px;
+}
+
+
+
+
+}
+
+@media(min-width:575px) and (max-width:767px){
+    .home-inner{
+    
+        width:100%;
+        height:640px;
+    }
+    
+	.caption h1{
+        font-size: 2.8rem;
+        font-weight: 500;
+       letter-spacing: .2rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+        color: coral;
+
+
+}
+
+.classfature{
+    height:820px;
+    width: 100%;
+}
+
+.classfature h1{
+    color:green;
+    padding-top:30px;
+}
+
+.classclients{
+    width: 100%;
+    height: 280px;
+}
+.classclients h1{
+    padding-bottom: 40px;
+}
+
+
+.classclients img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  
+
+}
+
+.page-footer{
+    width: 100%;
+    height: 1480px;
+    background-color:cyan;
+   
+}
+
+.footeratikur{
+    padding-top:90px;
+}
+
+.overlay img{
+    width: 455px;
+    height: 165px;
+    padding-left: 65px;
+}
+
+
+
+	
+
+
+}
+
+@media(min-width:480px) and (max-width:574px){
+
+    .home-inner{
+    
+        width:100%;
+        height:550px;
+    }
+
+
+    
+    
+	.caption h1{
+        font-size: 2.8rem;
+        font-weight: 500;
+       letter-spacing: .2rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+
+
+}
+
+.classcourse{
+    height: 350px;
+    width:100%;
+}
+
+
+.classfature{
+   
+    height:960px;
+    width: 100%;
+}
+
+.classfature h1 {
+   
+    padding-top:50px;
+}
+
+.classclients{
+    width: 100%;
+    height: 250px;
+}
+
+.classclients h1{
+    
+    font-size: .8rem;
+    padding-bottom: 1rem;
+
+}
+
+
+.classclients img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+  
+
+}
+
+.page-footer{
+    width: 100%;
+    height: 1280px;
+    background-color: cadetblue;
+   
+}
+
+.footeratikur{
+    padding-top:50px;
+}
+
+.overlay img{
+    width: 355px;
+    height: 145px;
+    padding-left: 65px;
+
+
+}
+
+.carousel-inner img{
+
+    height: 370px;
+    width: 100%;
+}
+
+
+}
+
+
+
+
+@media(min-width:360px) and (max-width:480px){    /* amar pore add kora */
+ 
+
+    .home-inner{
+    
+        width:100%;
+        height:450px;
+    }
+
+    .caption{
+        
+        top:18%; 
+        color: rgb(14, 209, 209);
+        
+    }
+    
+	.caption h1{
+        font-size: 2.8rem;
+        font-weight: 500;
+       letter-spacing: .2rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+
+
+}
+
+
+.classfature{
+    height:980px;
+    width: 100%;
+}
+
+.classfature h3{
+
+  
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+    padding-top:20px;;
+}
+
+
+.classfature p{
+   text-align: justify;
+}
+
+.classclients{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.classclients img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.page-footer{
+    width: 100%;
+    height: 1580px;
+    background-color: cadetblue;
+   
+}
+
+.footeratikur{
+    padding-top:50px;
+}
+
+.overlay img{
+    width: 355px;
+    height: 145px;
+    padding-left: 10px;
+
+
+}
+
+.carousel-inner img{
+
+    height: 270px;
+    width: 100%;
+}
+
+.slider5 h5{
+    
+    padding-bottom:20px;
+    font-size: 7px;
+ 
+ }
+ .slider5 p{
+     
+     padding-bottom:30px;
+     font-size: 2px;
+ }
+ 
+
+
+
+}
+
+
+@media(min-width:300px) and (max-width:360px){    /* amar pore add kora 22222 */
+ 
+
+    .home-inner{
+    
+        width:100%;
+        height:400px;
+    }
+    .caption{
+        
+        top:18%; 
+        color: rgb(14, 209, 209);
+        
+    }
+	.caption h1{
+        font-size: 1.8rem;
+        font-weight: 300;
+       letter-spacing: .1rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+
+}
+
+.classfature{
+    height:950px;
+    width: 100%;
+}
+.classfature h1{
+    padding-top: 20px;
+}
+
+.classfature h3{
+
+  
+    font-size: .5rem;
+    padding-bottom: 1rem;
+    padding-top:20px;;
+
+}
+.fixed-background h1{
+    font-size: 25px;
+    padding-top: 30px;
+
+
+}
+
+.classresources h3{
+    font-size: 9px;
+
+}
+.classresources p{
+    font-size: 8px;
+   
+    text-align: center;
+
+}
+
+.classfature p{
+   text-align: justify;
+}
+
+.classclients{
+    width: 100%;
+    height: 250px;
+}
+
+.classclients img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+  
+
+}
+
+.page-footer{
+    width: 100%;
+    height: 1290px;
+    background-color: cadetblue;
+   
+}
+
+.footeratikur{
+    padding-top:50px;
+}
+
+.overlay img{
+    width: 355px;
+    height: 145px;
+    padding-left: 10px;
+
+
+}
+
+carousel-inner img{
+
+    height:170px;
+    width: 100%;
+}
+
+
+
+}
+
+
+
+@media(max-width:479px ){
+
+
+   
+	
+}
+
+
+
